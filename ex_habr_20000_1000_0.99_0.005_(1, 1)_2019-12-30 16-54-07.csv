@@ -1,0 +1,175 @@
+Comment;Model;MSETrain;MSETest;sMSETrain;sMSETest;R2Train;R2Test;TrainShape;TestShape
+text + Очистка + Нормализация + только ru_words cvect + rate_log:False;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";30.651438910740417;1269.8560813634072;5.536374166432433;35.63504007803846;0.7040581490259952;-0.9399733273840611;(5000, 3060);(3931, 3060)
+text + Очистка + Нормализация + только ru_words tfidf + rate_log:False;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";33.428445998775516;853.770244303208;5.781733822892188;29.219347088927364;0.6772459455208257;-0.30431434394052403;(5000, 3060);(3931, 3060)
+text + Очистка + Нормализация + только ru_words hashvect + rate_log:False;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";74.90843274357286;737.3340688674812;8.654965785234097;27.153896016363493;0.2767536850634853;-0.12643349743908638;(5000, 1000);(3931, 1000)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";20.305879168100997;2.5522911541128166e+18;4.506204519115949;1597589169.3776648;0.8039452736896934;-3899163720491063.5;(5000, 4414);(3931, 4414)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";21.13263646163136;1.216230431825712e+26;4.597024740158721;11028283782283.225;0.7959628724567157;-1.8580488232661788e+23;(5000, 4414);(3931, 4414)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";38.09932195507315;2.363004684874912e+27;6.172464820075781;48610746598616.56;0.6321483016483116;-3.609988665974669e+24;(5000, 3000);(3931, 3000)
+text + Очистка + Нормализация + только ru_words cvect + rate_log:False;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";31.34737839315461;1026.3686960338052;5.598872957404429;32.036989497045525;0.697338803184147;-0.5679949276060683;(5000, 3060);(3931, 3060)
+text + Очистка + Нормализация + только ru_words tfidf + rate_log:False;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";54.83782441865064;710.3996784039716;7.405256539691966;26.65332396538885;0.4705368544327524;-0.08528552810979462;(5000, 3060);(3931, 3060)
+text + Очистка + Нормализация + только ru_words hashvect + rate_log:False;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";77.11299592170413;729.224498734025;8.781400567204763;27.004157063941562;0.25546846875030627;-0.11404441651381814;(5000, 1000);(3931, 1000)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";24.778049702425704;1155.8674689393167;4.977755488412996;33.99805095794929;0.760766144982111;-0.765831650249414;(5000, 4414);(3931, 4414)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";45.68254776996138;708.6882937312023;6.75888657768137;26.62120008059746;0.5589317100701099;-0.08267102661880554;(5000, 4414);(3931, 4414)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";52.79150941855497;737.3268918212689;7.265776587437504;27.153763861042705;0.4902941731859669;-0.12642253298537742;(5000, 3000);(3931, 3000)
+text + Очистка + Нормализация + только ru_words cvect + rate_log:False;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";99.21399600296283;757.4626201496783;9.960622269866619;27.522038808011267;0.04208172069351379;-0.15718411018917;(5000, 3060);(3931, 3060)
+text + Очистка + Нормализация + только ru_words tfidf + rate_log:False;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";103.57250524;785.8728206821572;10.177057788968282;28.03342327797583;0.0;-0.20058669105444893;(5000, 3060);(3931, 3060)
+text + Очистка + Нормализация + только ru_words hashvect + rate_log:False;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";103.57250524;785.8728206821572;10.177057788968282;28.03342327797583;0.0;-0.20058669105444893;(5000, 1000);(3931, 1000)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";99.15169875962061;757.4644156928439;9.95749460254037;27.5220714280892;0.04268320506620382;-0.15718685326053117;(5000, 4414);(3931, 4414)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";103.57250524;785.8728206821572;10.177057788968282;28.03342327797583;0.0;-0.20058669105444893;(5000, 4414);(3931, 4414)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";103.57250524;785.8728206821572;10.177057788968282;28.03342327797583;0.0;-0.20058669105444893;(5000, 3000);(3931, 3000)
+text + Очистка + Нормализация + только ru_words cvect + rate_log:True;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";29.413431444453426;42508.10453665474;5.423415108992988;206.1749367325106;0.7160112003055623;-63.94010637034063;(5000, 3060);(3931, 3060)
+text + Очистка + Нормализация + только ru_words tfidf + rate_log:True;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";30.53508580944682;833.4707792079602;5.525856115521542;28.8698939937084;0.7051815466016738;-0.2733026242481136;(5000, 3060);(3931, 3060)
+text + Очистка + Нормализация + только ru_words hashvect + rate_log:True;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";74.44558938356664;747.600617751916;8.628185752727315;27.34228625685709;0.28122247105001374;-0.14211781890857456;(5000, 1000);(3931, 1000)
+text + только доп.фичи + rate_log:False + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";215.09881012076335;686.3324419006167;14.666247308727728;26.19794728410256;0.0240214150318665;-0.04851774192868419;(15722, 8);(3931, 8)
+text + только доп.фичи + масштабирование ss + rate_log:False + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";214.42123819280403;688.2525624783126;14.643129385237433;26.234568082556887;0.02709579601562262;-0.05145113159445791;(15722, 8);(3931, 8)
+text + только доп.фичи + rate_log:False + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";215.37542277559987;687.4739141812081;14.67567452540427;26.219723762488577;0.02276632660390132;-0.050261581888814355;(15722, 8);(3931, 8)
+text + только доп.фичи + масштабирование ss + rate_log:False + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";214.42124576489115;688.2601046093233;14.643129643791697;26.234711826306064;0.02709576165841321;-0.051462653792293755;(15722, 8);(3931, 8)
+text + только доп.фичи + rate_log:False + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";215.18338233977778;691.7682928186663;14.669130251646747;26.301488414511187;0.02363768127436694;-0.056822152127145475;(15722, 8);(3931, 8)
+text + только доп.фичи + масштабирование ss + rate_log:False + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";216.60923618085772;703.1046870612388;14.717650497985666;26.516121267282642;0.017168083356055353;-0.07414088830682997;(15722, 8);(3931, 8)
+text + только доп.фичи + rate_log:True + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";216.04101297811906;710.1691089786815;14.698333680323055;26.648998273456385;0.019746310902007735;-0.08493328462193972;(15722, 8);(3931, 8)
+text + только доп.фичи + масштабирование ss + rate_log:True + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";216.020078347692;712.2835125315379;14.697621520085894;26.688640140170833;0.01984129864726558;-0.0881634825601687;(15722, 8);(3931, 8)
+text + только доп.фичи + rate_log:True + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";216.44940882561852;711.0940203828735;14.712219711029961;26.66634621358677;0.01789327600550772;-0.08634628211091444;(15722, 8);(3931, 8)
+text + только доп.фичи + масштабирование ss + rate_log:True + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";216.02029463162864;712.2830116626639;14.697628877871038;26.6886307566099;0.019840317291346832;-0.08816271737719195;(15722, 8);(3931, 8)
+text + только доп.фичи + rate_log:True + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";218.1411710160108;721.1227294395424;14.769602940364063;26.8537284085384;0.010217158839844975;-0.1016672530174314;(15722, 8);(3931, 8)
+text + только доп.фичи + масштабирование ss + rate_log:True + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";221.93241273412806;741.3204460096323;14.897396172960162;27.227200480578833;-0.006985031749879189;-0.13252353035081876;(15722, 8);(3931, 8)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";19.996543218456548;2586.8547185544703;4.4717494583727015;50.86113170737032;0.8069319345696987;-2.9519668641702568;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";20.34138277796742;958.402518063446;4.510142212610088;30.958076782375322;0.8036024837785664;-0.4641622379321575;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";37.700179787759765;1320.2486444320978;6.140047213805425;36.33522594442063;0.6360020480300226;-1.0169586091703375;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";97.49858566938327;729.6250781336591;9.874137211391346;27.011573040710886;0.058644131051403425;-0.11465638613950624;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";98.8581479990684;733.3010903050331;9.942743484525204;27.07953268254519;0.045517458808275624;-0.12027227101674987;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";98.85797488010115;733.3043150539829;9.942734778726683;27.079592224662154;0.04551913028437671;-0.12027719750176047;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";98.19276415884883;737.4598600145763;9.909226213930573;27.156212180909478;0.051941787723345456;-0.12662566998034297;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";98.41669020620206;738.4271080407009;9.920518646028647;27.174015309495594;0.04977976560334041;-0.1281033455997973;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";98.41669020620206;738.4271080407009;9.920518646028647;27.174015309495594;0.04977976560334041;-0.1281033455997973;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";18.855372813988485;110305781.14548244;4.342277376445278;10502.655909125198;0.8179500170407532;-168514.37463107196;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";18.32025102513615;967.3821223054704;4.280216235791849;31.102767116535954;0.8231166564651095;-0.4778804796885683;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";36.087437868653794;5382.475275478783;6.007282070009182;73.36535473558881;0.651573187449397;-7.222867632780794;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";98.00392375345314;748.5687024974802;9.899693114104757;27.35998359826775;0.053765055442495546;-0.143596772793668;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";99.1573814876612;752.0397535381709;9.957779947742429;27.42334322321352;0.04262833791755749;-0.14889953626092534;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";99.15738007050334;752.042410262478;9.957779876584103;27.42339166227398;0.04262835160031864;-0.14890359496834082;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";100.59757225032696;773.7259901240457;10.029834108813912;27.815930509764467;0.02872319234510534;-0.1820298422580957;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";100.59757225032696;773.7259901240457;10.029834108813912;27.815930509764467;0.02872319234510534;-0.1820298422580957;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:True + доп.фичи + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";100.59757225032696;773.7259901240457;10.029834108813912;27.815930509764467;0.02872319234510534;-0.1820298422580957;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";20.000218931460626;2544.6581746044335;4.472160432214013;50.44460500989609;0.8068964452958266;-2.887502732390087;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";20.15258076417401;956.7478136017764;4.4891625905255435;30.931340313697635;0.8054253808240314;-0.46163432743312205;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";37.49191808324131;1784.0433952085502;6.123064435659755;42.237937866431764;0.6380128297914163;-1.7255030332920236;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";69.12719408395199;702.2477306364885;8.314276521980249;26.499957181785945;0.33257196083295215;-0.07283170639941194;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";88.10706847577268;717.9333065852463;9.386536553797288;26.794277496981447;0.14931990616998747;-0.09679473607800015;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";87.1430368306327;720.2901300912326;9.335043483060627;26.838221440535747;0.15862770115772196;-0.1003952816879059;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";99.151713225062;757.4644179554301;9.957495328899833;27.52207146919414;0.04268306540132516;-0.1571868567171093;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";101.22573842559174;770.6635142254808;10.061100259195896;27.76082697301146;0.022658202666530958;-0.1773512636016914;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:False + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";101.22573842559174;770.6635142254808;10.061100259195896;27.76082697301146;0.022658202666530958;-0.1773512636016914;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";18.88447337386996;117913770.5497734;4.345626925297426;10858.810733674907;0.8176690490385402;-180137.18507073878;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";18.14044073819253;959.1132616509962;4.259159628165224;30.969553785145116;0.8248527377400285;-0.4652480488541131;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";35.91517052230657;116211.79703644976;5.992926707570064;340.89851427726956;0.6532364410894247;-176.53806111321364;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";71.41862246483372;718.5790481163864;8.450953938155958;26.806324778238185;0.31044805472899084;-0.09778124263191645;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";88.21545301080313;732.4692246258141;9.392308183338276;27.06416864834045;0.14827344567567569;-0.11900142052169338;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";87.31482095097418;736.2379558501411;9.344239987873502;27.13370516258591;0.15696911309959294;-0.12475895333235965;(5000, 3008);(3931, 3008)
+text + Очистка + Нормализация + разбиение на 3 словаря cvect + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";103.96321524335002;800.5883017598294;10.196235346604649;28.294669140313857;-0.0037723332311481172;-0.2230676959567195;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря tfidf + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";103.96321524335002;800.5883017598294;10.196235346604649;28.294669140313857;-0.0037723332311481172;-0.2230676959567195;(5000, 4422);(3931, 4422)
+text + Очистка + Нормализация + разбиение на 3 словаря hashvect + rate_log:True + доп.фичи + масштабирование ss + tittle_words_count, text_words_count, text_category_int, sites_text_count, ru_words_text_count, en_words_text_count, punctuations_text_count, emotions_text_count;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";103.96321524335002;800.5883017598294;10.196235346604649;28.294669140313857;-0.0037723332311481172;-0.2230676959567195;(5000, 3008);(3931, 3008)
+text+ ru_words + w2v + rate_log:False;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";207.26046211922994;695.8500491670648;14.396543408722454;26.378969827630964;0.05958674329532543;-0.06305789691821806;(15722, 300);(3931, 300)
+text+ ru_words + w2v + rate_log:False;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";211.5173310230244;698.1083999496876;14.543635412888499;26.421741046904682;0.04027183919712218;-0.06650800464811235;(15722, 300);(3931, 300)
+text+ ru_words + w2v + rate_log:False;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";220.39296090475847;719.7478239014349;14.845637773593914;26.828116294317702;0.0;-0.09956679446094929;(15722, 300);(3931, 300)
+text+ ru_words + w2v + rate_log:True;"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)";209.12436079617135;717.19869060365;14.461132763244079;26.7805655392796;0.05112958264332568;-0.09567245503286226;(15722, 300);(3931, 300)
+text+ ru_words + w2v + rate_log:True;"Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=1, solver='auto', tol=0.001)";213.43944953679923;720.4888781062291;14.609567055077273;26.841923889807696;0.03155051476877302;-0.10069891125161945;(15722, 300);(3931, 300)
+text+ ru_words + w2v + rate_log:True;"Lasso(alpha=1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=1,
+   selection='cyclic', tol=0.0001, warm_start=False)";221.93241273412806;741.3204460096323;14.897396172960162;27.227200480578833;-0.006985031749879189;-0.13252353035081876;(15722, 300);(3931, 300)
