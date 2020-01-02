@@ -1,2 +1,2 @@
-# DataScience
-Projects for DataScience
+DataScience
+ Project Predict habr posts rate
