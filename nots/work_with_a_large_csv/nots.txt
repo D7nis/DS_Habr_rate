@@ -1,0 +1,11 @@
+Руководство по использованию pandas для анализа больших наборов данных
+https://habr.com/ru/company/ruvds/blog/442516/
+
+Как оптимизировать pandas при работе с большими datasetами (очерк)
+https://habr.com/ru/post/467785/
+
+Как обработать большие датасеты в pandas. Работаем с базой ФИАС, используя python и 8Гб памяти
+https://habr.com/ru/post/468637/
+
+Работа с большими файлами CSV в Python
+https://pythondata.com/working-large-csv-files-python/
